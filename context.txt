@@ -1,0 +1,9 @@
+[CONTRACT DOCUMENT]
+This contract document was written in August 08th, 2021.
+Under the given rules, this contract document is valid for 5 years.
+1. CompanyA should give us 100 V100 GPUs for experiment of research purpose.
+2. CompanyA should not change the given task too frequently.
+3. Yonsei will give a stable model that will perform Question Answering Tasks.
+4. Yonsei will provide an API in which CompanyA could use forever.
+5. This document is valid until the project ends at December.
+6. The place where all experiments are conducted is in Yonsei Univ, Sinchon.
