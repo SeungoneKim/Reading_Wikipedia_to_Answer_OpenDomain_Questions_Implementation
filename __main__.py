@@ -1,3 +1,10 @@
+import torch
+import transformers
+from datasets import load_dataset
+from transformers import AutoTokenizer, AutoModelForQuestionAnswering
+from src.run import Key_Information_Extraction_BERT, Key_Information_Extraction_RoBERTa
+import sys
+
 if __name__ == "__main__":
 
     sys.stdout.write('#################################################\n')
@@ -5,7 +12,10 @@ if __name__ == "__main__":
     sys.stdout.write('#################################################\n')
 
     sys.stdout.write('#################################################\n')
-    context = open('context.txt','r')
+    context_txt = open('context.txt','r')
+    context = ""
+    for line in context_txt:
+        context += line
     print('The given context is : ')
     print()
     print(context)
